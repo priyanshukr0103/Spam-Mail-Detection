@@ -78,8 +78,11 @@ prediction = model.predict(input_features)
 print("Spam mail" if prediction[0] == 0 else "Ham mail")  
 Results & Visualization
 ✅ Training Accuracy: ~98%
+
 ✅ Testing Accuracy: ~96%
+
 ✅ Performance Metrics: Confusion Matrix & Classification Report
+
 ✅ Data Visualization:
 
 Confusion Matrix Heatmap
