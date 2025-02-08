@@ -76,7 +76,9 @@ input_email = ["Congratulations! You have won a lottery. Call now to claim!"]
 input_features = feature_extraction.transform(input_email)  
 prediction = model.predict(input_features)  
 print("Spam mail" if prediction[0] == 0 else "Ham mail")  
-Results & Visualization
+
+### **Results & Visualization**
+
 ✅ Training Accuracy: ~98%
 
 ✅ Testing Accuracy: ~96%
